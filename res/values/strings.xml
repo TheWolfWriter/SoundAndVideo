@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sound And Video</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="playButtonText">Play</string>
+    <string name="pauseButtonText">Pause</string>
+    <string name="stopButtonText">Stop</string>
+    <string name="nameString">Hello this is McKell</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="homeButtonText">Go back to the home screen</string>
+    <string name="videoButtonText">Click here to see video</string>
+    <string name="nextButton">Next</string>
+
+</resources>

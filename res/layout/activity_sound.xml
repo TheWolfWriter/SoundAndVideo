@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <SeekBar
+        android:id="@+id/soundSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pauseButton"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stopButton"
+        android:layout_alignBottom="@+id/stopButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pauseButtonText" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pauseButton"
+        android:layout_alignBottom="@+id/pauseButton"
+        android:layout_marginRight="29dp"
+        android:layout_toLeftOf="@+id/pauseButton"
+        android:text="@string/playButtonText" />
+
+    <Button
+        android:id="@+id/videoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stopButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:text="@string/videoButtonText" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="124dp"
+        android:layout_toRightOf="@+id/pauseButton"
+        android:text="@string/nextButton" />
+
+</RelativeLayout>
